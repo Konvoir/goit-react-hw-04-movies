@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Title } from './PageTitle.styled'
+import { Title } from './NotFoundPage.styled'
 
 export const PageTitle = ({ text }) => {
     return <Title>{text}</Title>;
