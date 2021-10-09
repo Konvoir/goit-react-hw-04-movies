@@ -1,9 +1,9 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import fetchMovie from '../../services/movieAPI.js';
-import s from './Home.module.css';
+import s from './HomePage.module.css';
 
-export const Home = () => {
+export const HomePage = () => {
     const location = useLocation();
     const [trendMovie, setTrendMovie] = useState([]);
 
