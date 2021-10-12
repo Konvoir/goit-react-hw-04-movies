@@ -1,12 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import styles from './Navigation.module.css';
+import s from './Navigation.module.css';
 
-const Navigation = () => <nav>
-    <Link exect to="/" className={styles.link} activeClassName={styles.activeLink}>Главная</Link>
-     <Link to="/about" className={styles.link} activeClassName={styles.activeLink}>About</Link>
-      <Link to="books" className={styles.link} activeClassName={styles.activeLink}>Книги</Link>
-       <Link to="/avtors" className={styles.link} activeClassName={styles.activeLink}>Авторы</Link>
-</nav>
-
-
+const Navigation = () =>
+    <nav className={s.nav}>
+        <NavLink exect to="/" className={s.link} activeClassName={s.activeLink}>Home</NavLink>
+        <NavLink to="/movies" className={s.link} activeClassName={s.activeLink}>Movie</NavLink>
+    </nav>
+    
 export default Navigation; 

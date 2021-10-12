@@ -1,0 +1,40 @@
+.conteiner {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.img {
+  margin-right: 50px;
+}
+
+.description {
+  width: 700px;
+  line-height: 1.5;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 5px;
+}
+
+.btn {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.link {
+  margin: 20px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.activeLink {
+  color: rgba(112, 192, 20, 0.829);
+}

@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
+import fetchMovies from '../../services/movieAPI';
 
-import { fetchMovies } from '../../services/movieAPI';
-
-export const Reviews = ({ movieId }) => {
+const Reviews = ({ movieId }) => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
@@ -10,7 +9,7 @@ export const Reviews = ({ movieId }) => {
             .fetchMovieReviews(movieId)
             .then(({ results }) => setReviews(results));
     }, [movieId]);
-
+    
     return (
         <>
             {reviews.length !== 0 ? (
@@ -28,3 +27,5 @@ export const Reviews = ({ movieId }) => {
         </>
     )
 };
+
+export default Reviews;

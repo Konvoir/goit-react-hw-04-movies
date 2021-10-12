@@ -1,11 +1,2 @@
-import PropTypes from 'prop-types';
-import { Title } from './NotFoundPage.styled'
-
-export const PageTitle = ({ text }) => {
-    return <Title>{text}</Title>;
-};
-
-
-PageTitle.propTypes = {
-    text: PropTypes.string.isRequired,
-}; 
+const NotFoundPage = () => <h1>Error 404 - Not found page</h1>
+export default NotFoundPage;

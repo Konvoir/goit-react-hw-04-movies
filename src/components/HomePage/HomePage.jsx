@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import fetchMovie from '../../services/movieAPI.js';
+import  fetchMovie  from '../../services/movieAPI.js';
 import s from './HomePage.module.css';
 
 export const HomePage = () => {
