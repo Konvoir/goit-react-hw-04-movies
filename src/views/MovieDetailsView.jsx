@@ -1,6 +1,5 @@
-import { useState, UseEffect, lazy, Suspense } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { NavLink, Route, useParams, useRouteMatch, useHistory, useLocation } from "react-router-dom";
-import { useEffect } from "react/cjs/react.development";
 import { fetchGetMovieDetails } from "../services/movieAPI";
 import s from "./views.module.css";
 
