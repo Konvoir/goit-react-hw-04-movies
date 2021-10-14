@@ -1,0 +1,49 @@
+.poster {
+  display: block;
+  width: 250px;
+  min-height: 150px;
+}
+
+.moviecard {
+  display: flex;
+}
+
+.button {
+  min-height: 30px;
+  min-width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid gray;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+}
+
+.moviecontainer {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.movieinfo {
+  padding: 0 15px;
+}
+
+.pageheading {
+  margin: 0;
+}
+
+.additionalsection {
+  padding: 15px 0;
+}
+
+.link {
+  color: #2a363b;
+  font-size: 16px;
+}
