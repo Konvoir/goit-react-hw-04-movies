@@ -38,7 +38,7 @@ export default function Movie() {
     const setHistory = (searchQuery) => {
         history.push({
             ...location,
-            search: `query={searchQuery}`
+            search: `query=${searchQuery}`
         })
     };
 
